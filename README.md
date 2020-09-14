@@ -1,13 +1,9 @@
 # DSC680 - Applied Data Science
 # First Project - CIFAR100 Image Classification with Deep Learning
 
+## For this project, a deep neural network will be built and trained using the dataset from milestone 1. The final network will be able to classify images of many animals such as dogs, cats and a few basic objects such as tables, houses. The network will consist of convolutional layers for the base layer, a few dense layers on top of the base layer. The network will achieve high-level accuracy for the classification task. This network can be improved with more data and trainings.
+
+
 ## Milestone 1
 ## The dataset can be downloaded from: https://www.cs.toronto.edu/~kriz/cifar.html. Choose cifar-100 for python.
-## The files are pickle files.
 
-## To read the files, run the following codes in Python 3
-#### def unpickle(file):
-####    import pickle
-####    with open(file, 'rb') as fo:
-####       dict = pickle.load(fo, encoding='bytes')
-####    return dict
